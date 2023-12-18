@@ -2,6 +2,9 @@
 *{
   font-family: poppins;
 }
+.heading{
+  color:#7bd6dc
+}
 body{
   background:url("https://static.vecteezy.com/system/resources/previews/002/565/771/non_2x/fitness-pattern-seamless-background-with-blue-line-fitness-icons-on-white-vector.jpg");
    background-position: center;
