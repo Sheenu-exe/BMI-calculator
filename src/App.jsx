@@ -21,7 +21,7 @@ const App = () => {
   return (
     <div className='container'><div className="App">
       <div className='part1'>
-      <h1>BMI Calculator</h1>
+      <h1 className="heading">BMI Calculator</h1>
       <label>
         Weight (kg):
         <input type="text" value={weight} onChange={(e) => setWeight(e.target.value)} />
