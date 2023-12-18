@@ -24,12 +24,12 @@ const App = () => {
       <h1 className="heading">BMI Calculator</h1>
       <label>
         Weight (kg):
-        <input type="text" value={weight} onChange={(e) => setWeight(e.target.value)} />
+        <input type="number" value={weight} onChange={(e) => setWeight(e.target.value)} />
       </label>
       <br />
       <label>
         Height (cm):
-        <input type="text" value={height} onChange={(e) => setHeight(e.target.value)} />
+        <input type="number" value={height} onChange={(e) => setHeight(e.target.value)} />
       </label>
       <br />
       <button onClick={calculateBMI}>Calculate BMI</button>
